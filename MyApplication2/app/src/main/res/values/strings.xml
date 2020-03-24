@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="one1">One,One</string>
+    <string name="one2">One,Two</string>
+    <string name="one3">One,Three</string>
+    <string name="one4">One,Four</string>
+    <string name="two1">Two,One</string>
+    <string name="two2">Two,Two</string>
+    <string name="two3">Two,Three</string>
+    <string name="two4">Two,Four</string>
+    <string name="three1">Three,One</string>
+    <string name="three2">Three,Two</string>
+    <string name="three3">Three,Three</string>
+    <string name="three4">Three,Four</string>
+    <string name="four1">Four,One</string>
+    <string name="four2">Four,Two</string>
+    <string name="four3">Four,Three</string>
+    <string name="four4">Four,Four</string>
+
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+</resources>
