@@ -4,10 +4,10 @@
 
 ####下面是运行结果图：
 #####线性布局：
-![linear](MyApplication2/image/linear.png)
+![linear](https://github.com/NickMing522/AndroidStudy/blob/master/MyApplication2/image/linear.png)
 
 #####表格布局：
-![table](MyApplication2/image/table.png)
+![table](https://github.com/NickMing522/AndroidStudy/blob/master/MyApplication2/image/table.png)
 
 #####约束布局：
-![constr](MyApplication2/image/constr.png)
+![constr](https://github.com/NickMing522/AndroidStudy/blob/master/MyApplication2/image/constraint.png)
