@@ -4,109 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:layout_editor_absoluteX="1dp"
-    tools:layout_editor_absoluteY="-38dp">
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="97dp"
-        android:layout_height="69dp"
-        android:background="#f00"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/red"
-        android:textColor="#000"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
 
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="298dp"
-        android:layout_marginLeft="298dp"
-        android:background="#FF7700"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/orange"
-        android:textColor="#000"
-        app:layout_constraintStart_toStartOf="@+id/TextView01"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/TextView03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFDD00"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/yellow"
-        android:textColor="#000"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="627dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:id="@+id/TextView04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="78dp"
-        android:layout_marginRight="78dp"
-        android:background="#00FF37"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/green"
-        android:textColor="#000"
-        app:layout_constraintEnd_toStartOf="@+id/TextView05"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_green_light"
+        android:text="GREEN"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="155dp" />
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
-    <TextView
-        android:id="@+id/TextView05"
-        android:layout_width="106dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="88dp"
-        android:background="#0022FF"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/blue"
-        android:textColor="#000"
-        app:layout_constraintTop_toBottomOf="@+id/TextView02"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="298dp" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="YELLOWER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/TextView06"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="163dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ORANGE"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="BLUE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="INDIGO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_purple"
+        android:text="VIOLET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginLeft="69dp"
-        android:background="#6200FF"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/indigo"
-        android:textColor="#000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toEndOf="@+id/TextView05"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="155dp" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="157dp" />
 
-    <TextView
-        android:id="@+id/TextView07"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:background="#B02779"
-        android:gravity="center"
-        android:padding="25dp"
-        android:text="@string/violet"
-        android:textColor="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
