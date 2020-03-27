@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application3</string>
+    <string name="btn1">SimpleAdapter</string>
+    <string name="btn2">AlertDialog</string>
+    <string name="btn3">Menu</string>
+    <string name="btn4">ActionMode</string>
+</resources>
