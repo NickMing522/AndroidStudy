@@ -4,4 +4,9 @@
     <string name="btn2">AlertDialog</string>
     <string name="btn3">Menu</string>
     <string name="btn4">ActionMode</string>
+    <string name="dialog">AlertDialog</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Signin</string>
+    <string name="cancel">Cancel</string>
 </resources>
