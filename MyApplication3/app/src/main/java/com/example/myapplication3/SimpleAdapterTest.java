@@ -9,10 +9,11 @@ import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class SimpleAdapterTest extends Activity {
-    String[] animal = {"Lion","Tiger","Monkey","Dog","Cat","Elephant"};
-    int[] image = {R.drawable.lion,R.drawable.tiger,R.drawable.monkey,R.drawable.dog,R.drawable.cat,R.drawable.elephant};
+    private String[] animals =new String[] {"Lion","Tiger","Monkey","Dog","Cat","Elephant"};
+    private int[] images =new int[] {R.drawable.lion,R.drawable.tiger,R.drawable.monkey,R.drawable.dog,R.drawable.cat,R.drawable.elephant};
     ListView simpleAdapterList ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +22,11 @@ public class SimpleAdapterTest extends Activity {
 
         simpleAdapterList = (ListView) findViewById(R.id.simpleAdapterList);
 
-        ArrayList<HashMap<String,String>> arrayList = new ArrayList<>();
-        for(int i=0;i<animal.length;i++){
-            HashMap<String,String> hashMap = new HashMap<>();
-            hashMap.put("name",animal[i]);
-            hashMap.put("image",image[i]+"");
+        ArrayList<Map<String,Object>> arrayList = new ArrayList<>();
+        for(int i=0;i<animals.length;i++){
+            Map<String,Object> hashMap = new HashMap<>();
+            hashMap.put("name",animals[i]);
+            hashMap.put("image",images[i]);
             arrayList.add(hashMap);
         }
         String[] title = {"name","image"};
