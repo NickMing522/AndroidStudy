@@ -22,7 +22,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/xml_menu_btn"
+        android:id="@+id/xmlmenu_btn"
         android:text="@string/btn3"/>
 
     <Button

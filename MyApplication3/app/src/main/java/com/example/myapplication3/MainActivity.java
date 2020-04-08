@@ -30,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button xmlmenu_btn = (Button) findViewById(R.id.xmlmenu_btn);
+        xmlmenu_btn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, XMLMenu.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

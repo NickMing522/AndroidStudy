@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:showAsAction="never">
+<item android:id="@+id/font"
+    android:title="@string/font">
+    <menu>
+        <item android:id="@+id/big"
+            android:title="@string/bigfont"></item>
+        <item android:id="@+id/middle"
+            android:title="@string/middlefont"></item>
+        <item android:id="@+id/small"
+            android:title="@string/smallfont"></item>
+    </menu>
+</item>
+
+    <item android:id="@+id/toast"
+        android:title="@string/toast"></item>
+
+    <item android:id="@+id/color"
+        android:title="@string/color">
+        <menu>
+            <item android:id="@+id/red"
+                android:title="@string/red"></item>
+            <item android:id="@+id/black"
+                android:title="@string/black"></item>
+        </menu>
+    </item>
+</menu>

@@ -2,11 +2,21 @@
     <string name="app_name">My Application3</string>
     <string name="btn1">SimpleAdapter</string>
     <string name="btn2">AlertDialog</string>
-    <string name="btn3">Menu</string>
+    <string name="btn3">XMLMenu</string>
     <string name="btn4">ActionMode</string>
     <string name="dialog">AlertDialog</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="signin">Signin</string>
     <string name="cancel">Cancel</string>
+    
+    <string name="font">Change font</string>
+    <string name="toast">Toast</string>
+    <string name="color">Change color</string>
+    <string name="smallfont">Number 10</string>
+    <string name="middlefont">Number 16</string>
+    <string name="bigfont">Number 20</string>
+    <string name="red">Red</string>
+    <string name="black">Black</string>
+    <string name="test">用于测试的内容</string>
 </resources>
