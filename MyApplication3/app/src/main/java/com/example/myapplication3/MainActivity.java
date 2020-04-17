@@ -38,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button actionmode_btn = (Button) findViewById(R.id.actionmode_btn);
+        actionmode_btn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ActionModeTest.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
