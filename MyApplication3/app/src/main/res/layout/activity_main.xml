@@ -5,31 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:padding="10dp">
+    android:padding="20dp">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/simpleadapter_btn"
-        android:text="@string/btn1"/>
+        android:text="@string/btn1"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/alertdialog_btn"
-        android:text="@string/btn2"/>
+        android:text="@string/btn2"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/xmlmenu_btn"
-        android:text="@string/btn3"/>
+        android:text="@string/btn3"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn4"
-        android:id="@+id/actionmode_btn"/>
+        android:textSize="20sp"
+        android:id="@+id/actionmode_btn"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn"/>
 
 
 </LinearLayout>
