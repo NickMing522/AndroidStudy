@@ -5,12 +5,12 @@
 
 ##### 线性布局：  
 
-##### ![linear](https://github.com/NickMing522/AndroidStudy/blob/master/MyApplication2/image/linear.png)
+##### ![linear](http://q9cfj5sv8.bkt.clouddn.com/linear.png)
 
 ##### 表格布局：  
 
-##### ![table](https://github.com/NickMing522/AndroidStudy/blob/master/MyApplication2/image/table.png)
+##### ![table](http://q9cfj5sv8.bkt.clouddn.com/table.png)
 
 ##### 约束布局：  
 
-##### ![constr](https://github.com/NickMing522/AndroidStudy/blob/master/MyApplication2/image/constraint.png)
+##### ![constraint](http://q9cfj5sv8.bkt.clouddn.com/constraint.png)
