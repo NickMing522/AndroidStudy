@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application4</string>
+    <string name="btn1">Implicitlntent1</string>
+    <string name="btn2">Implicitlntent2</string>
+    <string name="btn_2">浏览该网页</string>
+    <string name="btn_1">https://www.baidu.com/</string>
+</resources>
