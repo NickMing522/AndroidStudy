@@ -17,28 +17,23 @@ public class AlertDialogTest extends Activity {
         dialog_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                alert();
+                AlertDialog.Builder builder = new AlertDialog.Builder(AlertDialogTest.this);
+                LayoutInflater inflater = getLayoutInflater();
+                builder.setView(inflater.inflate(R.layout.dialog_signin, null))
+                        .setPositiveButton(R.string.signin, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                            }
+                        })
+                        .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+
+                            }
+                        }).show();
             }
         });
     }
 
-    public void alert(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        LayoutInflater inflater = getLayoutInflater();
-        builder.setView(inflater.inflate(R.layout.dialog_signin, null))
-                .setPositiveButton(R.string.signin, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                    }
-                })
-                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-
-                    }
-                });
-        builder.create();
-        builder.show();
-    }
 }
