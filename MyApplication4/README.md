@@ -2,21 +2,21 @@
 
 **查看自己的浏览器MyBrowser：**
 
-![1](http://q9cfj5sv8.bkt.clouddn.com/4.1.png)
+![1](https://img-blog.csdnimg.cn/20200520154829137.png)
 
 **点击运行MyApplication4即进入到输入地址框中：**
 
-![2](http://q9cfj5sv8.bkt.clouddn.com/4.2.png)
+![2](https://img-blog.csdnimg.cn/20200520154829131.png)
 
 
 
 **然后选择自己写的MyBrowser**
 
-![3](http://q9cfj5sv8.bkt.clouddn.com/4.3.png)
+![3](https://img-blog.csdnimg.cn/20200520154829141.png)
 
 **接着就可以访问了**
 
-![4](http://q9cfj5sv8.bkt.clouddn.com/4.4.png)
+![4](https://img-blog.csdnimg.cn/20200520154829132.png)
 
 
 
