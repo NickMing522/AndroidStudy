@@ -18,11 +18,11 @@
 
 #### 点击第三个按钮进入使用XML定义菜单的功能，提供了颜色以及字体大小和Toast显示的选项
 
-![XMLMenu](http://q9cfj5sv8.bkt.clouddn.com/31.png)
+![XMLMenu](https://img-blog.csdnimg.cn/20200520153102585.png)
 
 ##### 选择字体红色，字体大小调节，显示Toast后变化情况
 
-![XMLMenu](http://q9cfj5sv8.bkt.clouddn.com/32.png)
+![XMLMenu](https://img-blog.csdnimg.cn/20200520153335987.png)
 
 
 
@@ -63,4 +63,4 @@
 
 ##### 上截图：
 
-![ActionMode](http://q9cfj5sv8.bkt.clouddn.com/4.png)
+![ActionMode](https://img-blog.csdnimg.cn/20200520153335987.png)
