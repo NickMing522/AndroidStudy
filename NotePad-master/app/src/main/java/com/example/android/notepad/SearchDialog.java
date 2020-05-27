@@ -17,10 +17,6 @@ public class SearchDialog extends DialogFragment {
     private Button cancel,search;
     private EditText searchText;
     private String content;
-    private static final String[] PROJECTION = new String[] {
-            NotePad.Notes._ID,
-
-    };
 
     public SearchDialog() {
     }
