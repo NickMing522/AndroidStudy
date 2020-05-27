@@ -8,7 +8,7 @@
 
 在这个功能的实现上，主要是通过让原本就已经定义好的修改时间显示出来即可。
 
-**1.修改noteslist.xml文件，添加一个TextView**，做好布局，用于显示时间：
+**1).修改noteslist.xml文件，添加一个TextView**，做好布局，用于显示时间：
 
 ```xml
 <TextView
@@ -19,7 +19,7 @@
         />
 ```
 
-**2.修改NotesList类中的部分内容：**
+**2).修改NotesList类中的部分内容：**
 
 在PROJECTION，添加 **COLUMN_NAME_MODIFICATION_DATE**
 
@@ -33,7 +33,7 @@
 
 
 
-**3.修改NoteEditer类中的内容**
+**3).修改NoteEditer类中的内容**
 
 主要是将时间戳进行一个格式化，转换成我们看得懂的日期形式
 
@@ -49,7 +49,7 @@
 
 在这个功能中实现了模糊查询的功能
 
-**1.首先，先在原本的list_options_menu.xml中添加一个item，用作查询使用**：
+**1).首先，先在原本的list_options_menu.xml中添加一个item，用作查询使用**：
 
 ```item
 <item android:id="@+id/menu_query"
@@ -67,7 +67,7 @@
 
 
 
-**2. 我新建了一个类叫做SearchNote类，这个类主要是用于做查询操作，和原本程序自带的NoteList大体相同，最主要的差别在于查询语句：**
+**2). 我新建了一个类叫做SearchNote类，这个类主要是用于做查询操作，和原本程序自带的NoteList大体相同，最主要的差别在于查询语句：**
 
 ```查询
   Cursor cursor = managedQuery(
@@ -83,7 +83,7 @@
 
 
 
-**3.接着我通过创建了一个叫SearchDialog类，这个类继承了DialogFragment，主要用于实现在查询时弹窗以及获取弹窗的内容信息，以此进行查询操作：**
+**3).接着我通过创建了一个叫SearchDialog类，这个类继承了DialogFragment，主要用于实现在查询时弹窗以及获取弹窗的内容信息，以此进行查询操作：**
 
 ``` 弹窗类
 public class SearchDialog extends DialogFragment {
@@ -146,7 +146,7 @@ public class SearchDialog extends DialogFragment {
 
 
 
-**4.最后，我们就要通过调用的方式来实现此功能：（在NotesList中新增该菜单选项的监听调用）**
+**4).最后，我们就要通过调用的方式来实现此功能：（在NotesList中新增该菜单选项的监听调用）**
 
 找到定义paste的地方下，添加以下代码
 
