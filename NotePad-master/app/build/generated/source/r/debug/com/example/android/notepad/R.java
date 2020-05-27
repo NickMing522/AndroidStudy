@@ -18,7 +18,6 @@ public final class R {
         public static final int ic_menu_revert=0x7f020004;
         public static final int ic_menu_save=0x7f020005;
         public static final int live_folder_notes=0x7f020006;
-        public static final int search=0x7f020007;
     }
     public static final class id {
         public static final int cancel=0x7f060004;

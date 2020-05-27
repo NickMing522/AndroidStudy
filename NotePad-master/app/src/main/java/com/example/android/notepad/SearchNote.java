@@ -88,7 +88,7 @@ public class SearchNote extends ListActivity {
                 getIntent().getData(),            // Use the default content URI for the provider.
                 PROJECTION,                       // Return the note ID and title for each note.
                 NotePad.Notes.COLUMN_NAME_TITLE+" like ?",                             // No where clause, return all records.
-                new String[]{mKeywords},                             // No where clause, therefore no where column values.
+                new String[]{"%"+mKeywords+"%"},                             // No where clause, therefore no where column values.
                 NotePad.Notes.DEFAULT_SORT_ORDER  // Use the default sort order.
         );
 
