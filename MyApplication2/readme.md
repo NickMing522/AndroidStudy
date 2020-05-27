@@ -5,12 +5,13 @@
 
 ##### 线性布局：  
 
-##### ![linear](http://q9cfj5sv8.bkt.clouddn.com/linear.png)
+##### ![linear](https://img-blog.csdnimg.cn/20200520154005417.png)
 
 ##### 表格布局：  
 
-##### ![table](http://q9cfj5sv8.bkt.clouddn.com/table.png)
+##### ![table](https://img-blog.csdnimg.cn/20200520154005416.png)
 
 ##### 约束布局：  
 
-##### ![constraint](http://q9cfj5sv8.bkt.clouddn.com/constraint.png)
+##### ![constraint](https://img-blog.csdnimg.cn/20200520154005365.png)
+
