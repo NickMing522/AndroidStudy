@@ -1,13 +1,14 @@
 # 安卓期中实验
 
 **在本次实验中，主要改善了NotePad的两个功能，一是增加了查询功能，二是添加了时间戳。**
-<br/>
-<br/>
+<br>
+<br>
 
 ### **1.增加时间戳**
 
 在这个功能的实现上，主要是通过让原本就已经定义好的修改时间显示出来即可。
 <br>
+
 **1).修改noteslist.xml文件，添加一个TextView**，做好布局，用于显示时间：
 
 ```xml
@@ -18,7 +19,8 @@
         android:text="214"
         />
 ```
-<br/>
+<br>
+
 **2).修改NotesList类中的部分内容：**
 
 在PROJECTION，添加 **COLUMN_NAME_MODIFICATION_DATE**
@@ -32,7 +34,8 @@
 ![time2](https://img-blog.csdnimg.cn/2020052720500527.png)
 
 
-<br/>
+<br>
+
 **3).修改NoteEditer类中的内容**
 
 主要是将时间戳进行一个格式化，转换成我们看得懂的日期形式
@@ -44,11 +47,13 @@
 以下是展示情况：
 
 ![time4](https://img-blog.csdnimg.cn/20200527204608211.png)
-<br/><br/>
+<br><br>
+
 ### **2.通过标题查询**
 
 在这个功能中实现了模糊查询的功能
-<br/>
+<br>
+
 **1).首先，先在原本的list_options_menu.xml中添加一个item，用作查询使用**：
 
 ```item
@@ -66,7 +71,8 @@
 我们要通过这个地方来进行查询。
 
 
-<br/>
+<br>
+
 **2). 我新建了一个类叫做SearchNote类，这个类主要是用于做查询操作，和原本程序自带的NoteList大体相同，最主要的差别在于查询语句：**
 
 ```查询
@@ -82,7 +88,8 @@
 **这里我通过了在获取查询的文本框内容两边加上“%”来实现模糊查询**
 
 
-<br/>
+<br>
+
 **3).接着我通过创建了一个叫SearchDialog类，这个类继承了DialogFragment，主要用于实现在查询时弹窗以及获取弹窗的内容信息，以此进行查询操作：**
 
 ``` 弹窗类
@@ -145,7 +152,8 @@ public class SearchDialog extends DialogFragment {
 ```
 
 
-<br/>
+<br>
+
 **4).最后，我们就要通过调用的方式来实现此功能：（在NotesList中新增该菜单选项的监听调用）**
 
 找到定义paste的地方下，添加以下代码
@@ -167,7 +175,8 @@ public class SearchDialog extends DialogFragment {
 ![query3](https://img-blog.csdnimg.cn/20200527205004983.png)
 
 
-<br/><br/>
+<br><br>
+
 ### 3.总结
 
 这两个功能的实现过程其实并没有那么困难，但我实际也花了挺长时间才完成，最主要的原因是自身的安卓开发编程能力薄弱，有些内容并不是很清楚就上手用，让自己有时候云里雾里的。
